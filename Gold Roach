@@ -26,9 +26,9 @@ contract RoachToken {
 
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
 
-    function balanceOf(address _owner) public view returns (uint256 balance) {
+    function balanceOf(0x2B0879E17980299566C304B7945e08C943f7CCeA) public view returns (uint256 balance) {
 
-        return balances[_owner];
+        return balances[0x2B0879E17980299566C304B7945e08C943f7CCeA];
 
     }
 
